@@ -1,4 +1,7 @@
 # AFEPack 安装指南 2024年完全安装AFEPack旧版本
+安装所需要的依赖文件都在北大网盘里
+[北大网盘分享安装AFEPack所需要的文件](https://disk.pku.edu.cn/link/AA98F6841A162F49899E3A551611941561)
+
 综合网上介绍的各种经验介绍AFEPack在Ubuntu16.04下的安装成功经验。
 参考的链接有
 ```
