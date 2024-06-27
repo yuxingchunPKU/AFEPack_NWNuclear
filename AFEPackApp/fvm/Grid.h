@@ -9,9 +9,11 @@ public:
 private:
   h_tree_t h_tree;    // 层次几何体
   ir_mesh_t *ir_mesh; // 非正则网格
+public:
   void initialize();
   void init_mesh();
   void init_template_element();
+  void set_meshfile(const std::string);
 
 protected:
   std::vector<TemplateElement<double, DIM>> template_element;         // 单元模板向量

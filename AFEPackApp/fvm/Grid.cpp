@@ -12,6 +12,11 @@ void Grid::init_mesh()
   ir_mesh->semiregularize();
   ir_mesh->regularize(false); // 参数对单元序号重排 有限体积不需要
 }
+void Grid::set_meshfile(const std::string str)
+{
+  meshfile.clear();
+  meshfile.append(str);
+}
 
 void Grid::init_template_element()
 {
