@@ -1,6 +1,10 @@
 #ifndef _COMMONHEADER_H_
 #define _COMMONHEADER_H_
 
+#include <set>
+#include <list>
+#include <map>
+#include <vector>
 #include <string>
 #include <cmath>
 #include <cstdlib>
