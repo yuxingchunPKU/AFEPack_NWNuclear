@@ -1,11 +1,12 @@
 #include "Common.h"
-#include "GammaLawGas.h"
+#include "Solution.h"
 #include "Grid.h"
+#include "Problem.h"
 int main(int argc, char const *argv[])
 {
-  Material::GammaLawGas<DIM, 1> Gas;
   Grid grid;
   std::string meshname = "D.mesh";
   grid.set_meshfile(meshname);
+  Problem app;
   return 0;
 }
