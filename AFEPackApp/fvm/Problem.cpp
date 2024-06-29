@@ -4,13 +4,13 @@ void Problem::initialize()
 {
 }
 
-void Problem::calculate_edge_flux()
+void Problem::calculateEdgeFlux()
 {
 }
-void Problem::initial_value()
+void Problem::initialValue()
 {
 }
 
-void Problem::boundary_value()
+void Problem::boundaryValue()
 {
 }

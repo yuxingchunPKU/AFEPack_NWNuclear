@@ -9,6 +9,11 @@ public:
 private:
   h_tree_t h_tree;    // 层次几何体
   ir_mesh_t *ir_mesh; // 非正则网格
+
+public:
+  Grid(){}; // 不设置默认参数
+  ~Grid(){};
+
 public:
   void initialize();
   void init_mesh();
