@@ -15,7 +15,6 @@ public:
   ~Grid(){};
 
 public:
-  void initialize();
   void init_mesh();
   void init_template_element();
   void set_meshfile(const std::string);

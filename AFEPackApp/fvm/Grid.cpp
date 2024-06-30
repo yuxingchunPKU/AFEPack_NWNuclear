@@ -1,16 +1,12 @@
 #include "Grid.h"
 
-// 空函数即可 负载平衡会用
-void Grid::initialize()
-{
-}
-
 void Grid::init_mesh()
 {
   h_tree.readMesh(meshfile);
   ir_mesh->reinit(h_tree);
   ir_mesh->semiregularize();
   ir_mesh->regularize(false); // 参数对单元序号重排 有限体积不需要
+  init_template_element();    // 初始化模板单元
 }
 void Grid::set_meshfile(const std::string str)
 {
